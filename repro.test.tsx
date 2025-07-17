@@ -4,5 +4,5 @@ import { render, screen } from '@testing-library/react-native';
 
 test('repro invalid View render name', () => {
   render(<View />);
-  expect(screen.toJSON()).toMatchInlineSnapshot(`<View_withRef />`);
+  expect(screen.toJSON()).toMatchInlineSnapshot(`<View />`);
 });
